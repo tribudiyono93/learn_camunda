@@ -1,0 +1,40 @@
+PRODUCTS :
+- Camunda Cloud
+- BPMN Workflow engine
+- DMN Decision Engine
+- Cawemo
+- Modeler
+- Cockpit
+- Tasklist
+- Optimize
+
+
+Camunda mengimplementasi beberapa standart untuk Bussiness process management. Yaitu :
+
+1. BPMN (Bussiness process model and notation).camunda support dari v2.
+	- standard untuk workflow and process automation
+	- BPMN Tutorial => https://camunda.com/bpmn/
+	- BPMN 2.0 Symbol Reference => https://camunda.com/bpmn/reference/
+2. CMMN (Case management model and notation). camunda support dari v1.
+- standart untuk case management.
+3. DMN (Decision model and notation). camunda support dari v1.
+- standard untuk business decision management.
+
+
+OVERVIEW ARSITEKTUR :
+- Camunda BPM adalah sebuah framework berbasis java.
+- Terdiri dari :
+	- embedded process engine
+	- shared, container-managed process engine 
+	- Standalone (Remote) Process Engine Server
+	- clustering model.
+	
+DATABASE YANG DI SUPPORT :
+- MySQL 5.6 / 5.7
+- MariaDB 10.0 / 10.2 / 10.3
+- Oracle 11g / 12c / 18c
+- IBM DB2 10.5 / 11.1 (excluding IBM z/OS for all versions)
+- PostgreSQL 9.4 / 9.6 / 10.4 / 10.7 / 11.1 / 11.2
+- Amazon Aurora PostgreSQL compatible with PostgreSQL 9.6 / 10.4 / 10.7
+- Microsoft SQL Server 2012/2014/2016/2017 (see Configuration Note)
+- H2 1.4 (not recommended for Cluster Mode - see Deployment Note)
